@@ -16,6 +16,17 @@ body{
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.header-text{
+    margin-top: 20%;
+    font-size: 20px;
+}
+.header-text-green{
+    color: rgb(3, 127, 3);
+}
+.header-text-red{
+    color: red;
+}
 .container{
     padding: 10px 10%;
 }
@@ -52,3 +63,4 @@ nav ul li a::after{
 nav ul li a:hover::after{
     width: 100%;
 }
+
