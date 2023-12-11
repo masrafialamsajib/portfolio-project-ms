@@ -254,7 +254,10 @@ nav ul li a:hover::after{
     border-radius: 50%;
     text-align: center;
 }
-.btn-portfolio{
+
+
+/* ------button------ */
+.btn{
     display: block;
     margin: 50px auto;
     width: fit-content;
@@ -262,6 +265,75 @@ nav ul li a:hover::after{
     border-radius: 6px;
     transition: background0.5s;
 }
-.btn-portfolio:hover{
+.btn:hover{
     background: #cac8c8;
+}
+
+
+
+
+
+/* ---------contact----------- */
+
+
+
+.contact-left{
+    flex-basis: 35%;
+}
+.contact-left p{
+    margin-top: 30px;
+}
+.contact-left p i{
+    color: #bcbbbb;
+    margin-right: 15px;
+    font-size: 25px;
+}
+.social-icon{
+    margin-top: 30px;
+}
+.social-icon a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #adacac;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.social-icon a:hover{
+    color: #adacac;
+    transform: translateY(-5px);
+
+}
+
+/* -------Download button----- */
+.btn2{
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    padding: 14px 50px;
+    border-radius: 6px;
+    transition: background0.5s;
+    background: #a4a2a2;
+    color: #000000;
+    text-decoration: none;
+}
+.btn2:hover{
+    background: #f5f4f4;
+}
+.contact-right{
+    flex-basis: 65%;
+}
+.contact-right form{
+    width: 100%;
+}
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #a4a2a2;
+    padding: 15px;
+    margin: 15px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
 }
