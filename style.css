@@ -390,20 +390,23 @@ nav .fa-solid{
         font-size: 30px;
     }
     nav ul{
-        background: #adacac;
+        background: #5d5c5c;
         position: fixed;
         top: 0;
-        right: 0;
+        right: -200px;
         width: 200px;
         height: 100vh;
         padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
     }
     nav ul li{
         display: block;
         margin: 25px;
     }
-    nav ul .fa-solid{
+    nav ul .fa-regular{
         position: absolute;
+        padding-top: 10px;
         top: 25px;
         left: 25px;
         cursor: pointer;
