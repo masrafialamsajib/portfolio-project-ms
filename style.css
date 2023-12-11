@@ -94,7 +94,7 @@ nav ul li a:hover::after{
     flex-basis: 60%;
 }
 .about-subtitle{
-    font-size: 50px;
+    font-size: 70px;
     font-weight: 600;
 }
 .about-text{
@@ -148,3 +148,6 @@ nav ul li a:hover::after{
     text-decoration: underline;
     color: white;
 }
+
+/* -------service-------- */
+
