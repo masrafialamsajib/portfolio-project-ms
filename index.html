@@ -50,25 +50,25 @@
                     <p class="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore commodi ipsa, optio excepturi nisi consequuntur iusto ullam vero odit inventore ad officiis corporis non illum accusantium id nulla nihil ducimus reprehenderit. Magni sed excepturi veniam a porro animi reprehenderit alias dolores soluta laboriosam possimus, reiciendis blanditiis, asperiores hic doloremque architecto id facilis sunt numquam. Fugiat atque dolor optio eius quod officia rerum reiciendis tempora sed rem vitae, dolore laudantium debitis, inventore eum cupiditate blanditiis, error voluptatibus aliquid accusamus at tenetur est distinctio. Reiciendis sed consequatur ab. Alias dignissimos, placeat ipsum debitis asperiores libero beatae ullam. Excepturi asperiores quia labore? Saepe!</p>
                     <!-- -----about second part--- -->
                     <div class="tab-title">
-                        <p class="tab-link active-link">Skills</p>
-                        <p class="tab-link">Experience</p>
-                        <p class="tab-link">Education</p>
+                        <p class="tab-link active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-link" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-link" onclick="opentab('education')">Education</p>
                     </div>
-                    <div class="tab-content">
+                    <div class="tab-content active-tab" id="skills">
                         <ul>
-                            <li><span>HTML CSS</span><br>Proficiency in front-end technologies such as HTML, CSS, Bootstrap, and Tailwind CSS.</li>
-                            <li><span>Font-end Work</span><br>Expertise in HTML, JavaScript, and React.</li>
-                            <li><span>Back-end Work</span><br>Skilled in Firebase, Node.js, and MongoDB. </li>
+                            <li><span class="tab-underline">HTML CSS</span><br>Proficiency in front-end technologies such as HTML, CSS, Bootstrap, and Tailwind CSS.</li>
+                            <li><span class="tab-underline">Font-End Work</span><br>Expertise in HTML, JavaScript, and React.</li>
+                            <li><span class="tab-underline">Back-End Work</span><br>Skilled in Firebase, Node.js, and MongoDB. </li>
                         </ul>
                     </div>
-                    <div class="tab-content">
+                    <div class="tab-content" id="experience">
                         <ul>
                             <li><span>2023-current</span><br>ABC it company Ltd.</li>
                             <li><span>2021-2022</span><br>Dream name company Ltd.</li>
                             <li><span>2019-20201</span><br>Intern and developer, XYZ Ltd.</li>
                         </ul>
                     </div>
-                    <div class="tab-content">
+                    <div class="tab-content" id="education">
                         <ul>
                             <li><span>2016</span><br>Dream high school</li>
                             <li><span>2018</span><br>Dream outside college</li>
